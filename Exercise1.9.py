@@ -1,35 +1,35 @@
+"""print('helloword) если не записать скобку то программа будет
+считать что функция  не закончена , и напишет о ошибке SyntaxError
+print('helloword') если вы хотите правильно написать эту функцию тогда нужно учесть
+правила написание этой функции т.к эта функция была построена с определенными параметрами
+для ее реализации
 """
-Exercise 2.1.
-42 = n--не допустимо так как это число с зарезервированным id,и  по договору нельзя
-к числу присваивать переменную
-x = y = 1 --тут создается две колонки с присвоением 1-це к переменной x=y, y=1 значит
-x,y будут приходить к одной колонке
-In some languages every statement ends with a semi-colon, ;. What happens if you put a
-semi-colon at the end of a Python statement?:
-в python ';' не используется если же так сделать то тогда будет ошибка 'SyntaxError'
 
-What if you put a period at the end of a statement?:
-будет так же "SyntaxError"
-
-In math notation you can multiply x and y like this: xy. What happens if you try that in
-Python?
-будет ошибка "SyntaxError" так как умножение в python делается через знак *
-
-
-Exercise 2.2.
-The volume of a sphere with radius r is 4
-3
-?r
-3
-. What is the volume of a sphere with radius 5?
-523.59877559829886
-
-Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. Shipping costs
-$3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for
-60 copies?
-1010.7
-If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), then 3 miles at
-tempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for breakfast?
-
-7:30:06
+"""
+1. In a print statement, what happens if you leave out one of the parentheses, or both?
+произойдет ошибка синтаксиса(SyntaxError) и вам напишут на какой строке и где нужно 
+поставить скобки
+2. If you are trying to print a string, what happens if you leave out one of the quotation marks,
+or both?
+Python не поймет этого и предложит исправить вам это 
+3. You can use a minus sign to make a negative number like -2. What happens if you put a plus
+sign before a number? What about 2++2?
+если поставить перед числом "+" Тогда число будет добавляться к другому числу либо просто
+выведет число 2
+что на счет "++"то это будет тоже самое сложение 
+с ведущими нулями в python сложнее так как не разрешается это кроме дробных чисел 
+е
+5. What happens if you have two values with no operator between them?
+произойдет SyntaxError
+"""
+#Exercise 1.2.
+"""
+1. How many seconds are there in 42 minutes 42 seconds?:2562
+2. How many miles are there in 10 kilometers? Hint: there are 1.61 kilometers in a mile.
+:6.172839506172839
+3. If you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace (time per
+mile in minutes and seconds)? What is your average speed in miles per hour?
+:6.9174--(время на
+милю в минутах и секундах)
+Какая у вас средняя скорость в милях в час?:0.11528999999999999
 """
